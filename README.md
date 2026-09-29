@@ -7,7 +7,7 @@
 
 ## 다운로드 및 설치
 
-**[한글 패치 v0.7 다운로드](https://github.com/slimshadykor-cmd/condemned-korean-patch-/raw/refs/heads/main/downloads/Condemned_Korean_ISO_v07.zip)** · [SHA-256 확인 파일](downloads/Condemned_Korean_ISO_v07.zip.sha256)
+**[한글 패치 v0.7 다운로드](https://github.com/slimshadykor-cmd/condemned-korean-patch-/blob/main/Condemned_Korean_ISO_v07.zip)** · [SHA-256 확인 파일](downloads/Condemned_Korean_ISO_v07.zip.sha256)
 
 위 링크에서 패치 ZIP을 받으세요.
 
