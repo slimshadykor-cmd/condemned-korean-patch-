@@ -1,59 +1,79 @@
 # Condemned: Criminal Origins 한글 패치
 
 **한글화: 슬림쉐이디**  
-Xbox 360판 / Xenia용 · v0.8 테스트 배포
+Xbox 360판 / Xenia용 · **v0.9 검수 수정 통합판** · 2026-10-09
 
 Condemned: Criminal Origins Xbox 360판을 한국어로 플레이하기 위한 비공식 한글 패치입니다.
 
 ## 다운로드
 
-➡️ **[Condemned Korean ISO v0.8 다운로드](https://github.com/slimshadykor-cmd/condemned-korean-patch-/raw/refs/heads/main/Condemned_Korean_ISO_v08.zip)**
+**[ISO용 v0.9 패치 다운로드](https://github.com/slimshadykor-cmd/condemned-korean-patch-/raw/refs/heads/main/Condemned_Korean_ISO_v09.zip)**  
+파일: `Condemned_Korean_ISO_v09.zip` · 3,870,390바이트
 
-현재 배포 파일: `Condemned_Korean_ISO_v08.zip` (3,842,544바이트, 약 3.66 MiB)
+[폴더용 v0.9 패치 다운로드](https://github.com/slimshadykor-cmd/condemned-korean-patch-/raw/refs/heads/main/Condemned_Korean_UI_v09.zip)  
+파일: `Condemned_Korean_UI_v09.zip` · 4,711,573바이트
 
-이전 버전: [v0.7 ISO 패치 다운로드](https://github.com/slimshadykor-cmd/condemned-korean-patch-/raw/refs/heads/main/Condemned_Korean_ISO_v07.zip). v0.7 파일도 계속 보관합니다.
+**이전 번역과 수정 사항을 모두 포함한 통합 패치입니다. 이전 패치를 먼저 적용할 필요가 없습니다.** 사용하는 게임 형식에 맞는 파일 하나를 받으세요.
 
-v0.8 ZIP SHA-256: `0873bdc53cfa150901ce7c781c8958cabc7d8442e27f53c44e3ad2390ef32aee`
+## ISO 설치 방법
 
-## 설치 방법
+1. ISO용 ZIP의 압축을 **전부 해제**합니다.
+2. 압축을 푼 폴더의 **`RUN_ISO_PATCH.bat`**를 실행합니다.
+3. 패치하지 않은 **원본 Condemned Xbox 360 ISO**를 선택합니다.
+4. 완료 메시지가 나올 때까지 기다립니다.
+5. 생성된 `원본이름_Korean_v09.iso`를 Xenia에서 실행합니다. 콘솔 언어는 English 또는 Korean으로 설정합니다.
 
-1. 위 ZIP 파일을 다운로드합니다.
-2. ZIP 파일의 압축을 **전부 해제**합니다.
-3. 압축을 푼 폴더에서 **`RUN_ISO_PATCH.bat`**를 실행합니다.
-4. 패치하지 않은 **원본 Condemned Xbox 360 ISO**를 선택합니다.
-5. 패치 작업이 완료될 때까지 기다립니다.
-6. 생성된 한글 패치 ISO를 **Xenia**에서 실행합니다.
+**기존 v0.7·v0.8 등 패치된 ISO에 덧씌우지 마세요. 원본 ISO에 v0.9를 적용해 새로 만드세요.**
 
-> 원본 ISO는 직접 준비해야 합니다. 이 저장소에는 게임 ISO가 포함되어 있지 않습니다.
+원본 ISO는 보존되고 새 ISO가 별도로 생성됩니다. 출력 드라이브에 ISO 한 개 크기만큼의 여유 공간이 필요합니다. 이 저장소에는 원본 게임 ISO가 포함되어 있지 않습니다.
 
-**v0.7 사용자도 패치하지 않은 원본 ISO에 v0.8을 적용해 새 ISO를 만들어 주세요.** 기존 v0.7 패치 ISO에 덧씌우는 방식은 지원하지 않습니다. 결과 파일 이름은 `원본이름_Korean_v08.iso`입니다.
+## 폴더 설치 및 업데이트
 
-## v0.8 변경 사항 (2026-09-30)
+1. 게임과 Xenia를 종료합니다.
+2. `Condemned_Korean_UI_v09` 폴더를 게임의 `default.xex`, `Layer0.Arch00`와 나란히 놓습니다.
+3. 새 패치 폴더의 **`RUN_FIX.bat`**를 실행합니다.
+4. `FIX APPLIED`가 나오면 해당 게임 폴더의 `default.xex`를 실행합니다.
 
-- 대사 4곳의 말투와 의미를 수정했습니다. `M5_010`, `M5_040`은 존댓말로 정리하고, `M5_065`는 “불을 꺼요.”로 바꿨습니다. `M8_018`은 원문의 책임 부정 의미를 보완했습니다.
-- 신발자국 분석 대사와 나머지 대사, 폰트, UI는 v0.7 그대로입니다.
-- 오른쪽 아래 로딩 팁 “Time your kicks carefully for just after a swing of a melee weapon.”는 v0.3에서 누락되었고 v0.4에서 번역되었습니다. v0.7과 v0.8에도 “근접 무기를 휘두른 직후에 맞춰 발차기를 하세요.”가 들어 있습니다.
-- 테스트용 폴더의 v0.7 → v0.8 업데이트·복원, 테스트용 ISO의 적용·원본 보존·오류 거부 검사를 통과했습니다.
+기존 v0.1~v0.8 폴더 패치 사용자는 원본 백업(`.bak`)과 설치 기록(`.state.json`)을 유지해야 업데이트할 수 있습니다. ISO 패치판에서 추출한 폴더에는 이 업데이트를 적용하지 말고 깨끗한 원본을 사용하세요. 자세한 방법과 복원 안내는 ZIP 안의 `README_KR.txt`에 있습니다.
 
-## 포함된 기능
+## v0.9 변경 사항
 
-- 게임 대사 및 UI 한국어 번역
-- 한글 표시용 폰트 적용
-- 일부 특수문자/표시 문제 수정
-- 메인 화면에 **한글화: 슬림쉐이디** 표시
+검수에서 확인한 오역·번역 누락 후보·용어 불일치 **8곳**을 수정했습니다.
 
-**v0.8은 테스트 배포판입니다.** 이전 버전의 초반부 사용자 플레이 화면과 번역 데이터를 확인했으며, 이번 버전의 검사는 제공된 원본 리소스를 넣은 테스트용 폴더·ISO에서 수행했습니다. 실제 v0.8의 Xenia 화면, 자막 줄바꿈·음성 싱크, 엔딩까지의 전체 플레이는 아직 검증하지 않았습니다. ZIP 안의 `QA_KR.txt`와 `README_KR.txt`에서 범위를 확인할 수 있습니다.
+| 항목 | 수정 내용 |
+| --- | --- |
+| Desktop | 바탕 화면 → 책상 상판 |
+| Draw | 꺼내기 → 무승부 |
+| Boot | 장화로 번역 |
+| 체크포인트 저장 공간 부족 안내 | 내부 코드 대신 한국어 안내문 수록 |
+| Rate | 비율 → 공격 속도 |
+| SMG | 부정확한 기관총 대신 표준 약어 SMG 사용 |
+| Last Weapon | 마지막 무기 → 직전 무기 |
+| 로딩 팁 22 | 피해 표시 → 공격력 표시 |
+
+SMG는 기관단총을 뜻합니다. 기존 문자열 공간에 정확한 한국어 명칭이 들어가지 않아 약어를 유지했습니다. 일부 잔존 항목의 실제 본편 표시 여부는 미확인입니다.
+
+기존 캠페인 대사·문서·목표·메뉴 번역과 로딩 팁 43개 ID의 번역이 포함되어 있습니다. 이번 수정 외의 대사·글꼴·UI 레이아웃은 v0.8과 같습니다.
+
+## 검수 범위
+
+문자열 용량·태그·글꼴 참조, 압축 데이터, 아카이브 위치와 크기, 최종 배포 ZIP의 무결성을 검사했습니다. 확인한 데이터 범위에서 튕김을 유발할 구조 오류는 발견되지 않았습니다.
+
+**실제 v0.9의 Xenia 플레이와 엔딩까지의 완주 검수는 아직 완료하지 않았습니다.** 자막 잘림·음성 싱크·실행 환경에 따른 문제는 추가 제보가 필요합니다. 설치기 실행 시험을 포함한 버전별 검사 범위는 ZIP 안의 `QA_KR.txt`에 구분해 기록했습니다.
 
 ## 문제 제보
 
-번역 누락, 글자 깨짐, 특수문자, 잘린 문장 또는 패치 오류를 발견하면 이 저장소의 **Issues**에 남겨 주세요.
+번역 누락·오역·글자 깨짐·잘린 문장·패치 오류는 [Issues](https://github.com/slimshadykor-cmd/condemned-korean-patch-/issues)에 남겨 주세요.
 
-가능하면 문제가 발생한 장면의 스크린샷과 Xenia 버전을 함께 적어 주세요.
+가능하면 **챕터와 장면, 스크린샷, 사용한 패치 버전과 Xenia 버전**을 함께 알려 주세요.
 
-## 주의
+## 파일 확인 및 이전 버전
 
-이 패치는 **Condemned: Criminal Origins의 게임 데이터 자체를 배포하지 않습니다.**  
-게임을 플레이하려면 사용자가 소유한 원본 게임 데이터가 필요합니다.
+다운로드 파일의 SHA-256은 [SHA256SUMS_v09.txt](SHA256SUMS_v09.txt)를 참고하세요.
+
+이전 배포본도 보관합니다: [v0.8 ISO](https://github.com/slimshadykor-cmd/condemned-korean-patch-/raw/refs/heads/main/Condemned_Korean_ISO_v08.zip) · [v0.7 ISO](https://github.com/slimshadykor-cmd/condemned-korean-patch-/raw/refs/heads/main/Condemned_Korean_ISO_v07.zip)
+
+원본 게임 데이터는 직접 준비해야 합니다. 이 저장소는 한글 패치만 배포합니다.
 
 ---
 
