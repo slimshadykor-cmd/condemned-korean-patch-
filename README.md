@@ -9,9 +9,7 @@ v0.9에서 도전 과제 목록은 한글이지만 오른쪽 제목·설명이 �
 
 **[ISO용 v0.10 다운로드](https://github.com/slimshadykor-cmd/condemned-korean-patch-/raw/refs/heads/main/Condemned_Korean_ISO_v10.zip)** · 4,355,720바이트
 
-**[폴더용 v0.10 다운로드](https://github.com/slimshadykor-cmd/condemned-korean-patch-/raw/refs/heads/main/Condemned_Korean_UI_v10.zip)** · 5,203,388바이트
-
-이전 번역과 v0.9의 수정 8건을 모두 포함한 통합판입니다. 사용하는 게임 형식에 맞는 파일 하나를 받으세요.
+이전 번역과 v0.9의 수정 8건을 모두 포함한 ISO용 통합 패치입니다.
 
 ## ISO 설치
 
@@ -20,17 +18,6 @@ v0.9에서 도전 과제 목록은 한글이지만 오른쪽 제목·설명이 �
 3. 완료 후 생성된 `원본이름_Korean_v10.iso`를 Xenia에서 실행합니다. 콘솔 언어는 English 또는 Korean으로 설정합니다.
 
 **v0.9 등 이전 패치 ISO에도 덧씌우지 마세요. 원본 ISO에서 새로 만듭니다.** 원본은 보존되며 ISO 한 개 크기 이상의 여유 공간이 필요합니다.
-
-## 폴더 설치·업데이트
-
-1. 게임과 Xenia를 종료합니다.
-2. `Condemned_Korean_UI_v10` 폴더를 게임의 `default.xex`, `Layer0.Arch00`와 나란히 놓습니다.
-3. 새 패치 폴더의 **RUN_FIX.bat**를 실행합니다.
-4. `FIX APPLIED` 확인 후 게임 폴더의 `default.xex`를 실행합니다.
-
-v0.1~v0.9의 원본 백업과 설치 기록이 있으면 검증·복원 후 업데이트합니다. 이전 `.bak`와 `.state.json`을 지우지 마세요. ISO 패치판에서 추출한 폴더는 깨끗한 원본을 사용하세요.
-
-v0.10은 **Layer0.Arch00와 default.xex를 함께 백업**합니다. 원본 복원은 새 패치 폴더의 RUN_RESTORE.bat입니다.
 
 ## 도전 과제 설명이 계속 영어인 경우
 
@@ -61,7 +48,7 @@ PowerShell/C# 런타임으로 합성 ISO와 전체 크기의 시험 아카이브
 
 [SHA256SUMS_v10.txt](SHA256SUMS_v10.txt)에서 다운로드 파일의 해시를 확인할 수 있습니다.
 
-이전 배포본: [v0.9 ISO](Condemned_Korean_ISO_v09.zip) · [v0.9 폴더판](Condemned_Korean_UI_v09.zip) · [v0.8 ISO](Condemned_Korean_ISO_v08.zip) · [v0.7 ISO](Condemned_Korean_ISO_v07.zip)
+이전 배포본: [v0.9 ISO](Condemned_Korean_ISO_v09.zip) · [v0.8 ISO](Condemned_Korean_ISO_v08.zip) · [v0.7 ISO](Condemned_Korean_ISO_v07.zip)
 
 이전판에는 도전 과제 상세 설명 미번역이 있습니다. 신규 설치는 v0.10을 사용하세요.
 
