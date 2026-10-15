@@ -1,21 +1,25 @@
 # Condemned: Criminal Origins 한글 패치
 
 **한글화: 슬림쉐이디**  
-Xbox 360판 / Xenia용 · **v0.11 한 번 실행하는 ISO 통합 패치** · 2026-10-09
+Xbox 360판 / Xenia용 · **v1.1 한 번 실행하는 ISO 통합 패치** · 버전 표기 정리: 2026-10-15
 
 **RUN_PATCH.bat 하나로 ISO 패치와 기존 도전 과제 설명 갱신까지 처리합니다.** 이전처럼 보조 BAT를 따로 실행할 필요가 없습니다.
 
 ## 다운로드
 
-**[ISO용 v0.11 다운로드](https://github.com/slimshadykor-cmd/condemned-korean-patch-/raw/refs/heads/main/Condemned_Korean_ISO_v11.zip)** · 4,295,043바이트
+**[ISO용 v1.1 다운로드](https://github.com/slimshadykor-cmd/condemned-korean-patch-/releases/download/v1.1/Condemned_Korean_ISO_v11.zip)** · 4,295,043바이트
 
-이전 번역과 수정 사항을 포함한 통합판입니다. 도전 과제 50개의 제목·설명 100개 번역도 포함합니다. 번역 데이터는 v0.10과 같으며, v0.11에서 설치 과정을 통합했습니다.
+[정식 릴리스 안내](https://github.com/slimshadykor-cmd/condemned-korean-patch-/releases/tag/v1.1) · [기존 ZIP 직접 다운로드 링크](https://github.com/slimshadykor-cmd/condemned-korean-patch-/raw/refs/heads/main/Condemned_Korean_ISO_v11.zip)
+
+**v1.1은 기존 v0.11의 배포 버전명만 정리한 동일한 파일입니다.** 패치 동작·번역 데이터·ZIP 내용은 변경하지 않았으며, 기존 v0.11 사용자는 다시 패치할 필요가 없습니다. 기존 링크와 파일명 `Condemned_Korean_ISO_v11.zip`을 유지합니다. ZIP 내부 안내나 프로그램에 남아 있는 v0.11 표기는 같은 배포본을 뜻합니다.
+
+이전 번역과 수정 사항을 포함한 통합판입니다. 도전 과제 50개의 제목·설명 100개 번역도 포함합니다. 번역 데이터는 v0.10과 같으며, 기존 v0.11(현재 배포명 v1.1)에서 설치 과정을 통합했습니다.
 
 ## 설치
 
 1. ZIP 전체를 압축 해제합니다. `data` 폴더도 함께 유지하세요.
 2. 게임과 Xenia를 완전히 종료하고 **RUN_PATCH.bat**를 실행합니다.
-3. **원본 ISO 또는 이미 만든 v0.10 / v0.11 한글 ISO**를 선택합니다.
+3. **원본 ISO 또는 이미 만든 v0.10 / v0.11(현재 v1.1) 한글 ISO**를 선택합니다.
 4. 이어서 나오는 창에서 **현재 사용하는 Xenia 실행파일이 있는 폴더 또는 실제 기록이 저장된 `content` 폴더**를 선택합니다. ISO 보관 폴더와 Xenia 기록 폴더는 서로 다를 수 있습니다.
 5. ISO와 도전 과제 설명 처리가 모두 완료됐다는 메시지를 확인합니다.
 6. 화면에 안내된 ISO를 Xenia에서 실행합니다. 콘솔 언어는 English 또는 Korean으로 설정합니다.
@@ -27,7 +31,7 @@ Xbox 360판 / Xenia용 · **v0.11 한 번 실행하는 ISO 통합 패치** · 20
 ## 패치된 ISO 저장 위치
 
 - **원본 ISO를 선택한 경우:** 원본과 같은 폴더에 `원래파일명_Korean_v11.iso`가 생성됩니다.
-- **이미 v0.10 / v0.11 패치된 ISO를 선택한 경우:** 새 ISO를 만들지 않고 선택한 파일을 그대로 사용합니다. 기존 도전 과제 설명은 선택한 Xenia 기록에 적용됩니다.
+- **이미 v0.10 / v0.11(현재 v1.1) 패치된 ISO를 선택한 경우:** 새 ISO를 만들지 않고 선택한 파일을 그대로 사용합니다. 기존 도전 과제 설명은 선택한 Xenia 기록에 적용됩니다.
 - 완료 창의 **`실행할 ISO:`** 옆에 표시되는 경로를 확인하세요. 패치 폴더의 `patch_result_날짜.json`에도 실행할 ISO 경로가 기록됩니다.
 
 ## 기존 기록을 찾지 못했다면
@@ -56,8 +60,14 @@ Xbox 360판 / Xenia용 · **v0.11 한 번 실행하는 ISO 통합 패치** · 20
 
 ## 파일 확인·이전 버전
 
-[SHA256SUMS_v11.txt](SHA256SUMS_v11.txt)에서 다운로드 파일의 SHA-256을 확인할 수 있습니다.
+[SHA256SUMS_v11.txt](SHA256SUMS_v11.txt)에서 다운로드 파일의 SHA-256을 확인할 수 있습니다. 2026-10-15 저장소 ZIP을 내려받아 계산한 값은 다음과 같습니다. 릴리스에도 동일한 ZIP을 제공합니다.
+
+```text
+e0a0a9c7ca4092dbdfa1c483aeea03d03c9f2b75421749dcaae31523355578cc  Condemned_Korean_ISO_v11.zip
+```
+
+다운로드 횟수는 GitHub Releases에 첨부한 자산의 다운로드부터 집계됩니다. 기존 저장소 ZIP 링크의 과거 다운로드 횟수는 소급 집계되지 않습니다.
 
 이전 ISO 배포본: [v0.10](Condemned_Korean_ISO_v10.zip) · [v0.9](Condemned_Korean_ISO_v09.zip) · [v0.8](Condemned_Korean_ISO_v08.zip) · [v0.7](Condemned_Korean_ISO_v07.zip)
 
-신규 다운로드는 v0.11을 사용하세요. 원본 게임 ISO·실행파일은 포함하지 않으며 Xenia용 패치만 배포합니다.
+신규 다운로드는 v1.1을 사용하세요. 원본 게임 ISO·실행파일은 포함하지 않으며 Xenia용 패치만 배포합니다.
