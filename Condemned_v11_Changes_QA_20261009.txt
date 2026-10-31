@@ -1,3 +1,10 @@
+최신 패치 안내 — 2026-11-01
+현재 최신 버전은 v1.2입니다. 이전 main 브랜치 ZIP 다운로드 주소도 v1.2 내용으로 교체했습니다.
+다운로드 및 설치: https://github.com/slimshadykor-cmd/condemned-korean-patch-
+이번 변경·검수: Condemned_v12_Changes_QA_20261101.txt
+
+아래 내용은 이전 버전의 검수 이력입니다.
+
 ﻿v0.11 검증 기록 — 2026-10-09
 
 변경: RUN_PATCH.bat 한 번으로 ISO 준비와 기존 Xenia 프로필 도전 과제 설명 갱신을 연결했습니다.
@@ -33,3 +40,4 @@
 참조
 Xenia Canary GPD 및 프로필 구조: https://github.com/xenia-canary/xenia-canary/tree/canary_experimental/src/xenia/kernel/xam
 Xenia 저장 위치 안내: https://github.com/xenia-canary/xenia-canary/wiki/FAQ
+
