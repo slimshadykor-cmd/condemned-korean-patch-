@@ -7,7 +7,9 @@ Xbox 360판 / Xenia용 · **v1.2 ISO 통합 패치** · 2026-11-01
 
 ## 다운로드
 
-**[ISO용 v1.2 다운로드](https://github.com/slimshadykor-cmd/condemned-korean-patch-/raw/refs/heads/main/Condemned_Korean_ISO_v12.zip)** · 4,264,272바이트
+**[ISO용 v1.2 다운로드](https://github.com/slimshadykor-cmd/condemned-korean-patch-/releases/download/v1.2/Condemned_Korean_ISO_v12.zip)** · 4,264,272바이트
+
+[릴리스 안내](https://github.com/slimshadykor-cmd/condemned-korean-patch-/releases/tag/v1.2) · [저장소 직접 다운로드](https://github.com/slimshadykor-cmd/condemned-korean-patch-/raw/refs/heads/main/Condemned_Korean_ISO_v12.zip)
 
 기존 번역과 도전 과제 50개의 제목·설명을 포함한 통합판입니다. 이전 패치를 먼저 적용할 필요가 없습니다.
 
@@ -67,6 +69,6 @@ ISO와 기존 도전 과제 설명을 한 번 실행으로 처리합니다. 보�
 
 **이전에 공유한 main 브랜치 ZIP 주소(v07·v08·v09·v10·v11)도 최신 v1.2 내용으로 교체했습니다.** 주소에 옛 버전명이 남아 있어도 압축 안의 폴더·안내문·패치 프로그램은 v1.2입니다. 이전 파일을 이미 내려받았다면 새로 다운로드해 주세요.
 
-[이전 v1.1 릴리스 안내](https://github.com/slimshadykor-cmd/condemned-korean-patch-/releases/tag/v1.1)에서도 최신 다운로드를 안내합니다. 과거 Git 커밋·태그의 스냅샷은 변경하지 않습니다.
+[이전 v1.1 릴리스 안내](https://github.com/slimshadykor-cmd/condemned-korean-patch-/releases/tag/v1.1)와 그 릴리스의 기존 v11 ZIP 직접 주소도 최신 v1.2를 제공합니다. `_original`로 표시한 파일만 과거 v1.1 보관본입니다. 과거 Git 커밋·태그의 스냅샷은 변경하지 않습니다.
 
 신규 다운로드는 v1.2를 사용하세요. 원본 게임 ISO·실행파일은 포함하지 않으며 Xenia용 패치만 배포합니다.
