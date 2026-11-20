@@ -1,0 +1,39 @@
+컨뎀드 한글패치 v1.2 — Xenia / Xbox 360 실기 선택 기능 추가 (2026-11-20)
+
+RUN_PATCH.bat 하나를 실행하면 기존 패처에 사용 환경 선택 창이 나옵니다.
+  Xenia용: 게임 한글화 + 기존 도전 과제 한글화/프로필 문구 처리.
+  Xbox 360 실기용: 같은 게임 한글화 + 원본 default.xex 유지/복원.
+실기용은 도전 과제 문구와 Xenia 프로필을 변경하지 않습니다.
+에뮬레이터 실행파일·설정·세이브 경로는 변경하지 않습니다.
+
+적용 방법
+1. ZIP 전체 압축을 풀고 게임을 종료합니다. Xenia용은 Xenia도 종료하세요.
+2. RUN_PATCH.bat 실행 → 사용 환경 선택 → 지원되는 원본 또는 기존 v1.1/v1.2 ISO 선택.
+3. Xenia용만 사용 중인 Xenia/content 폴더를 추가 선택합니다.
+4. 완료 창에 표시된 ISO를 사용합니다. 원본 파일은 보존합니다.
+   Xenia용: 원래이름_Korean_v12.iso
+   실기용: 원래이름_Korean_Xbox360_v12.iso
+기존 Xenia용 ISO를 선택해도 실기용으로 전환할 수 있습니다.
+실기용에서 Xenia용으로 전환할 수도 있습니다.
+이미 선택한 환경의 v1.2이면 ISO를 검증하고 재사용합니다.
+다른 결과 파일이 이미 있으면 덮어쓰지 않고 중단합니다. 별도 폴더에서 진행하세요.
+이전 v0.9 이하 또는 알 수 없는 수정 ISO는 지원하지 않으므로 지원 원본을 사용하세요.
+
+실기 안내
+일반 정품 Xbox 360에서 임의 수정 게임이 실행된다는 의미는 아닙니다.
+기존에 사용자 수정 게임을 실행할 수 있는 환경에서 쓰는 패치입니다.
+ISO 추출·실기 전송·Aurora 등록 도구는 포함하지 않습니다.
+실기 사용자의 제보: 기존 v1.2에서 튕겼으나 XEX만 원본으로 교체 후 초반 실행 성공.
+따라서 실기용은 원본 XEX를 정확히 유지하도록 분리했습니다.
+원인을 도전 과제 기능 자체로 확정한 것은 아니며 실기 엔딩 검수도 미완료입니다.
+실기용에서는 도전 과제 설명이 영어로 표시될 수 있습니다.
+
+기존 번역·폰트·버튼 안내 18곳·메인화면 '한글화: 슬림쉐이디  v1.2'는 유지합니다.
+게임 원본은 포함하지 않습니다. 버전명은 v1.2를 유지합니다.
+한글화: 슬림쉐이디
+
+검증 기록
+PASS clean->retail; clean->Xenia; Xenia->retail; retail->Xenia; rerun; overwrite rejection; input/profile preservation
+Synthetic ISO with genuine XEX and Layer0 prefix; Linux PowerShell 7.4.6. No Windows GUI or console gameplay test.
+Retail full SHA256: 2f13a4ef7e0fdf0f6f97eaa19204672ce800fec48e21c9a961b2ef7af875eddc
+Original fixture SHA256: cb683642ff5f8a8f4a4aa08dbe88707cf291d733f0fb6e61790acafa01718e2d
